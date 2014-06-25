@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM homework - Exercise 02</title>
+</head>
+<body>  
+    <p>Exercise 02</p>
+    <input type="text" id="inputField">
+    <button onClick="printInputElement()">Click To Print</button>
+    <!--
+      02.Create a function that gets the value of <input type="text"> ands prints its value to the console
+    -->
+    <script type="text/javascript">
+
+        function printInputElement() {
+            var inputField = document.getElementById('inputField');
+            console.log(inputField.value);
+        }
+    </script>
+</body>
+</html>
+

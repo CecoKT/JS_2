@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM homework - Exercise 03</title>
+</head>
+<body>  
+    <p>Exercise 03</p>
+    <input type="color" id="inputField">
+    <button onClick="backgroundChanger()">Click To Change Background</button>
+    
+    <!--
+      03.Crеate a function that gets the value of <input type="color"> and sets the background of the body to this value
+    -->
+    <script type="text/javascript">
+
+        function backgroundChanger() {
+            var inputField = document.getElementById('inputField');
+            document.body.style.backgroundColor = inputField.value;
+        }
+    </script>
+</body>
+</html>
